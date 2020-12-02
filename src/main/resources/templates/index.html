@@ -41,7 +41,7 @@
             <div class="media" th:each="question:${pageDto.questions}">
                 <div class="media-left" >
                     <a th:href="@{'/question/'+${question.id}}">
-                        <img class="media-object img-rounded" th:src="${question.imgs}" >
+                        <img class="media-object img-rounded" th:src="${question.tourist.user_photo}" >
                     </a>
                 </div>
                 <div class="media-body">
@@ -94,6 +94,7 @@
             <img src="/images/wx.jpg" alt="" class="img-thumbnail question-wechat">
 
         </div>
+    </div>
     </div>
 </div>
 </body>
