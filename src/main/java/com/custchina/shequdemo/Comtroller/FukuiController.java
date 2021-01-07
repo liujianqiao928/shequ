@@ -1,5 +1,7 @@
 package com.custchina.shequdemo.Comtroller;
 
+import com.custchina.shequdemo.excaption.CustomizeErrorCode;
+import com.custchina.shequdemo.excaption.CustomizeException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -7,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class FukuiController {
     @RequestMapping("/fankui")
     public String toFu(){
-        return "fuquestion";
+        throw new CustomizeException(CustomizeErrorCode.GN_OFF);
     }
 }

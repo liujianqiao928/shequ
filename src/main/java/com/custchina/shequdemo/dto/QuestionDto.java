@@ -11,13 +11,23 @@ public class QuestionDto {
     private Long gmtCreate;
     private Long gmtModified;
     private Long creator;
-    private int commentCount;
-    private int viewCount;
-    private int likeCount;
+    private Integer viewCount;
+    private Integer commentCount;
+    private Integer likeCount;
     private String tag;
     private String imgs;
     private User user;
     private Tourist tourist;
+    private String namess;
+
+
+    public String getNamess() {
+        return namess;
+    }
+
+    public void setNamess(String namess) {
+        this.namess = namess;
+    }
 
     public Tourist getTourist() {
         return tourist;
@@ -85,19 +95,19 @@ public class QuestionDto {
         this.creator = creator;
     }
 
-    public int getCommentCount() {
+    public Integer getCommentCount() {
         return commentCount;
     }
 
-    public void setCommentCount(int commentCount) {
+    public void setCommentCount(Integer commentCount) {
         this.commentCount = commentCount;
     }
 
-    public int getViewCount() {
+    public Integer getViewCount() {
         return viewCount;
     }
 
-    public void setViewCount(int viewCount) {
+    public void setViewCount(Integer viewCount) {
         this.viewCount = viewCount;
     }
 
@@ -105,7 +115,7 @@ public class QuestionDto {
         return likeCount;
     }
 
-    public void setLikeCount(int likeCount) {
+    public void setLikeCount(Integer likeCount) {
         this.likeCount = likeCount;
     }
 

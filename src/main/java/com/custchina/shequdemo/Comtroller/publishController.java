@@ -79,7 +79,7 @@ public class publishController {
         question.setCreator(tourists.getUser_id());
         question.setId(id);
         Tourist tourist = (Tourist) session.getAttribute("tourist");
-
+        question.setNamess(tourist.getUser_name());
 //        System.out.println(tourist.getUser_photo());
         question.setImgs(tourist.getUser_photo());
         questionService.createOrupdate(question);
