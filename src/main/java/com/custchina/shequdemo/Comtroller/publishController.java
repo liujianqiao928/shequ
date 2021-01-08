@@ -82,6 +82,7 @@ public class publishController {
 
 //        System.out.println(tourist.getUser_photo());
         question.setImgs(tourist.getUser_photo());
+        question.setNamess(tourist.getUser_name());
         questionService.createOrupdate(question);
 
         return "redirect:/";

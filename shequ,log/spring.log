@@ -1,588 +1,359 @@
-2020-12-09 09:15:44.764  INFO 3356 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3356 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:15:44.764  INFO 3356 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:15:44.826  INFO 3356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:15:44.826  INFO 3356 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:15:46.451  INFO 3356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:15:46.467  INFO 3356 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:15:46.467  INFO 3356 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:15:46.561  INFO 3356 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:15:46.561  INFO 3356 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1735 ms
-2020-12-09 09:15:46.686  WARN 3356 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:15:47.373  INFO 3356 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:15:47.436  INFO 3356 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:15:47.561  INFO 3356 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:15:47.639  INFO 3356 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:15:47.686  INFO 3356 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:15:47.701  INFO 3356 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.976 seconds (JVM running for 6.585)
-2020-12-09 09:15:47.795  INFO 3356 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:15:48.608  INFO 3356 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:16:17.202  INFO 3356 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:16:17.202  INFO 3356 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:16:17.202  INFO 3356 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:17:53.593  INFO 2816 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 2816 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:17:53.593  INFO 2816 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:17:53.655  INFO 2816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:17:53.655  INFO 2816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:17:55.140  INFO 2816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:17:55.155  INFO 2816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:17:55.155  INFO 2816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:17:55.249  INFO 2816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:17:55.249  INFO 2816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1594 ms
-2020-12-09 09:17:55.374  WARN 2816 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:17:56.077  INFO 2816 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:17:56.155  INFO 2816 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:17:56.280  INFO 2816 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:17:56.343  INFO 2816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:17:56.374  INFO 2816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:17:56.390  INFO 2816 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.287 seconds (JVM running for 6.563)
-2020-12-09 09:17:56.484  INFO 2816 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:17:56.921  INFO 2816 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:18:04.499  INFO 2816 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:18:04.499  INFO 2816 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:18:04.499  INFO 2816 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:22:24.411  INFO 100 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 100 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:22:24.411  INFO 100 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:22:24.473  INFO 100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:22:24.473  INFO 100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:22:25.786  INFO 100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:22:25.786  INFO 100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:22:25.786  INFO 100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:22:25.895  INFO 100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:22:25.895  INFO 100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1422 ms
-2020-12-09 09:22:26.004  WARN 100 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:22:26.598  INFO 100 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:22:26.676  INFO 100 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:22:26.786  INFO 100 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:22:26.864  INFO 100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:22:26.879  INFO 100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:22:26.895  INFO 100 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.798 seconds (JVM running for 5.904)
-2020-12-09 09:22:26.989  INFO 100 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:22:27.301  INFO 100 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:22:41.364  INFO 100 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:22:41.380  INFO 100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:22:41.380  INFO 100 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:25:18.021  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3916 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:25:18.021  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:25:18.084  INFO 3916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:25:18.084  INFO 3916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:25:19.615  INFO 3916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:25:19.631  INFO 3916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:25:19.631  INFO 3916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:25:19.740  INFO 3916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:25:19.740  INFO 3916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
-2020-12-09 09:25:19.912  WARN 3916 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:25:20.756  INFO 3916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:25:20.865  INFO 3916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:25:21.006  INFO 3916 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:25:21.100  INFO 3916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:25:21.131  INFO 3916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:25:21.146  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.584 seconds (JVM running for 7.006)
-2020-12-09 09:25:21.240  INFO 3916 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:25:21.678  INFO 3916 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:25:21.693  INFO 3916 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:25:21.709  INFO 3916 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 09:25:22.068  INFO 3916 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:28:26.929  INFO 3884 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3884 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:28:26.929  INFO 3884 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:28:26.992  INFO 3884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:28:26.992  INFO 3884 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:28:28.210  INFO 3884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:28:28.210  INFO 3884 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:28:28.210  INFO 3884 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:28:28.304  INFO 3884 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:28:28.304  INFO 3884 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
-2020-12-09 09:28:28.413  WARN 3884 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:28:29.148  INFO 3884 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:28:29.210  INFO 3884 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:28:29.335  INFO 3884 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:28:29.398  INFO 3884 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:28:29.445  INFO 3884 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:28:29.460  INFO 3884 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.927 seconds (JVM running for 6.229)
-2020-12-09 09:28:29.554  INFO 3884 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:28:29.867  INFO 3884 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:28:38.492  INFO 3884 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:28:38.507  INFO 3884 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:28:38.507  INFO 3884 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:34:19.960  INFO 1380 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1380 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:34:19.960  INFO 1380 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:34:20.038  INFO 1380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:34:20.038  INFO 1380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:34:21.773  INFO 1380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:34:21.788  INFO 1380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:34:21.788  INFO 1380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:34:21.898  INFO 1380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:34:21.898  INFO 1380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1860 ms
-2020-12-09 09:34:22.054  WARN 1380 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:34:22.820  INFO 1380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:34:22.898  INFO 1380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:34:23.054  INFO 1380 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:34:23.148  INFO 1380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:34:23.195  INFO 1380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:34:23.210  INFO 1380 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.753 seconds (JVM running for 7.443)
-2020-12-09 09:34:23.632  INFO 1380 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:34:24.070  INFO 1380 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:34:31.492  INFO 1380 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:34:31.507  INFO 1380 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:34:31.507  INFO 1380 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:37:41.960  INFO 4052 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 4052 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:37:41.975  INFO 4052 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:37:42.054  INFO 4052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:37:42.054  INFO 4052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:37:43.679  INFO 4052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:37:43.694  INFO 4052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:37:43.694  INFO 4052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:37:43.788  INFO 4052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:37:43.788  INFO 4052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1734 ms
-2020-12-09 09:37:43.975  WARN 4052 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:37:44.741  INFO 4052 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:37:44.819  INFO 4052 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:37:44.975  INFO 4052 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:37:45.054  INFO 4052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:37:45.100  INFO 4052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:37:45.116  INFO 4052 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.725 seconds (JVM running for 7.057)
-2020-12-09 09:37:45.397  INFO 4052 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:37:45.929  INFO 4052 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:37:54.788  INFO 4052 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:37:54.788  INFO 4052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:37:54.788  INFO 4052 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:40:16.495  INFO 2504 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 2504 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:40:16.511  INFO 2504 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:40:16.573  INFO 2504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:40:16.573  INFO 2504 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:40:17.964  INFO 2504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:40:17.980  INFO 2504 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:40:17.980  INFO 2504 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:40:18.073  INFO 2504 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:40:18.073  INFO 2504 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1500 ms
-2020-12-09 09:40:18.198  WARN 2504 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:40:18.886  INFO 2504 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:40:18.964  INFO 2504 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:40:19.089  INFO 2504 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:40:19.152  INFO 2504 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:40:19.183  INFO 2504 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:40:19.198  INFO 2504 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.643 seconds (JVM running for 6.189)
-2020-12-09 09:40:19.292  INFO 2504 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:40:19.917  INFO 2504 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:40:20.433  INFO 2504 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:40:20.433  INFO 2504 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:40:20.433  INFO 2504 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:42:04.934  INFO 3808 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3808 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:42:04.934  INFO 3808 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:42:05.012  INFO 3808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:42:05.012  INFO 3808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:42:06.231  INFO 3808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:42:06.247  INFO 3808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:42:06.247  INFO 3808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:42:06.325  INFO 3808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:42:06.325  INFO 3808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
-2020-12-09 09:42:06.434  WARN 3808 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:42:07.137  INFO 3808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:42:07.216  INFO 3808 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:42:07.325  INFO 3808 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:42:07.387  INFO 3808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:42:07.419  INFO 3808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:42:07.434  INFO 3808 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.87 seconds (JVM running for 5.895)
-2020-12-09 09:42:07.466  INFO 3808 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:42:07.841  INFO 3808 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:42:13.809  INFO 3808 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:42:13.809  INFO 3808 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:42:13.809  INFO 3808 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:47:21.908  INFO 2240 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 2240 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:47:21.923  INFO 2240 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:47:21.986  INFO 2240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:47:21.986  INFO 2240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:47:23.579  INFO 2240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:47:23.595  INFO 2240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:47:23.595  INFO 2240 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:47:23.704  INFO 2240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:47:23.704  INFO 2240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1718 ms
-2020-12-09 09:47:23.829  WARN 2240 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:47:24.564  INFO 2240 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:47:24.626  INFO 2240 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:47:24.751  INFO 2240 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:47:24.845  INFO 2240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:47:24.892  INFO 2240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:47:24.908  INFO 2240 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.864 seconds (JVM running for 6.445)
-2020-12-09 09:47:25.001  INFO 2240 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:47:25.704  INFO 2240 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:47:31.189  INFO 2240 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:47:31.189  INFO 2240 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:47:31.189  INFO 2240 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:48:46.127  INFO 1668 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1668 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:48:46.143  INFO 1668 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:48:46.190  INFO 1668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:48:46.206  INFO 1668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:48:47.424  INFO 1668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:48:47.440  INFO 1668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:48:47.440  INFO 1668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:48:47.518  INFO 1668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:48:47.534  INFO 1668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
-2020-12-09 09:48:47.627  WARN 1668 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:48:48.331  INFO 1668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:48:48.409  INFO 1668 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:48:48.518  INFO 1668 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:48:48.596  INFO 1668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:48:48.627  INFO 1668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:48:48.659  INFO 1668 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.845 seconds (JVM running for 5.776)
-2020-12-09 09:48:48.737  INFO 1668 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:48:48.846  INFO 1668 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:48:48.846  INFO 1668 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:48:48.846  INFO 1668 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:48:49.362  INFO 1668 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:51:08.598  INFO 3468 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3468 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:51:08.598  INFO 3468 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:51:08.661  INFO 3468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:51:08.661  INFO 3468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:51:09.880  INFO 3468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:51:09.880  INFO 3468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:51:09.880  INFO 3468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:51:09.973  INFO 3468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:51:09.973  INFO 3468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
-2020-12-09 09:51:10.067  WARN 3468 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:51:10.661  INFO 3468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:51:10.723  INFO 3468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:51:10.848  INFO 3468 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:51:10.911  INFO 3468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:51:10.942  INFO 3468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:51:10.958  INFO 3468 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.676 seconds (JVM running for 5.836)
-2020-12-09 09:51:11.052  INFO 3468 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:51:11.427  INFO 3468 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:51:20.536  INFO 3468 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:51:20.536  INFO 3468 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:51:20.552  INFO 3468 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 09:52:32.865  INFO 3908 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3908 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:52:32.881  INFO 3908 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:52:32.928  INFO 3908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:52:32.928  INFO 3908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:52:34.115  INFO 3908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:52:34.115  INFO 3908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:52:34.115  INFO 3908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:52:34.209  INFO 3908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:52:34.209  INFO 3908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
-2020-12-09 09:52:34.303  WARN 3908 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:52:37.428  INFO 3908 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:52:37.506  INFO 3908 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:52:37.615  INFO 3908 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:52:37.725  INFO 3908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:52:37.787  INFO 3908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:52:37.818  INFO 3908 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 5.25 seconds (JVM running for 5.868)
-2020-12-09 09:52:37.912  INFO 3908 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:52:38.240  INFO 3908 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:53:20.522  INFO 3908 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:53:20.522  INFO 3908 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:53:20.538  INFO 3908 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 09:55:17.789  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3124 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:55:17.789  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:55:17.852  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:55:17.852  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:55:19.071  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:55:19.086  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:55:19.086  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:55:19.164  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:55:19.164  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
-2020-12-09 09:55:19.274  WARN 3124 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:55:19.914  INFO 3124 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:55:19.993  INFO 3124 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:55:20.102  INFO 3124 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:55:20.164  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:55:20.211  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:55:20.383  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.921 seconds (JVM running for 6.064)
-2020-12-09 09:55:20.399  INFO 3124 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:55:20.743  INFO 3124 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:55:24.352  INFO 3124 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:55:24.352  INFO 3124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:55:24.352  INFO 3124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 09:59:09.886  INFO 1176 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1176 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 09:59:09.902  INFO 1176 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 09:59:09.965  INFO 1176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 09:59:09.965  INFO 1176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 09:59:11.324  INFO 1176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 09:59:11.355  INFO 1176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 09:59:11.355  INFO 1176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 09:59:11.449  INFO 1176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 09:59:11.449  INFO 1176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1484 ms
-2020-12-09 09:59:11.558  WARN 1176 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 09:59:12.121  INFO 1176 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 09:59:12.183  INFO 1176 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 09:59:12.293  INFO 1176 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 09:59:12.386  INFO 1176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 09:59:12.418  INFO 1176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 09:59:12.433  INFO 1176 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.927 seconds (JVM running for 6.197)
-2020-12-09 09:59:12.511  INFO 1176 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 09:59:12.855  INFO 1176 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 09:59:41.653  INFO 1176 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 09:59:41.653  INFO 1176 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 09:59:41.653  INFO 1176 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:04:20.065  INFO 1544 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1544 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:04:20.065  INFO 1544 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:04:20.128  INFO 1544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:04:20.128  INFO 1544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:04:21.393  INFO 1544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:04:21.393  INFO 1544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:04:21.393  INFO 1544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:04:21.487  INFO 1544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:04:21.487  INFO 1544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
-2020-12-09 10:04:21.596  WARN 1544 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:04:22.315  INFO 1544 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:04:22.393  INFO 1544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:04:22.503  INFO 1544 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:04:22.581  INFO 1544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:04:22.628  INFO 1544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:04:22.643  INFO 1544 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.922 seconds (JVM running for 5.872)
-2020-12-09 10:04:22.737  INFO 1544 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:04:22.799  INFO 1544 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:04:22.799  INFO 1544 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:04:22.815  INFO 1544 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 10:04:23.159  INFO 1544 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:05:28.863  INFO 3472 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3472 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:05:28.878  INFO 3472 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:05:28.941  INFO 3472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:05:28.941  INFO 3472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:05:30.144  INFO 3472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:05:30.160  INFO 3472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:05:30.160  INFO 3472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:05:30.238  INFO 3472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:05:30.238  INFO 3472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
-2020-12-09 10:05:30.347  WARN 3472 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:05:31.800  INFO 3472 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:05:31.879  INFO 3472 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:05:31.988  INFO 3472 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:05:32.050  INFO 3472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:05:32.113  INFO 3472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:05:32.113  INFO 3472 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.562 seconds (JVM running for 6.071)
-2020-12-09 10:05:32.144  INFO 3472 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:05:32.550  INFO 3472 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:05:44.019  INFO 3472 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:05:44.019  INFO 3472 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:05:44.035  INFO 3472 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 10:07:34.912  INFO 1996 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1996 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:07:34.912  INFO 1996 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:07:34.974  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:07:34.974  INFO 1996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:07:36.208  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:07:36.208  INFO 1996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:07:36.208  INFO 1996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:07:36.302  INFO 1996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:07:36.302  INFO 1996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
-2020-12-09 10:07:36.427  WARN 1996 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:07:37.115  INFO 1996 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:07:37.193  INFO 1996 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:07:37.302  INFO 1996 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:07:37.365  INFO 1996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:07:37.396  INFO 1996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:07:37.412  INFO 1996 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.824 seconds (JVM running for 5.726)
-2020-12-09 10:07:37.490  INFO 1996 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:07:37.818  INFO 1996 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:07:38.615  INFO 1996 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:07:38.630  INFO 1996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:07:38.630  INFO 1996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:11:13.917  INFO 3120 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3120 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:11:13.917  INFO 3120 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:11:13.980  INFO 3120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:11:13.980  INFO 3120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:11:15.183  INFO 3120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:11:15.198  INFO 3120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:11:15.198  INFO 3120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:11:15.292  INFO 3120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:11:15.292  INFO 3120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1312 ms
-2020-12-09 10:11:15.402  WARN 3120 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:11:16.089  INFO 3120 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:11:16.152  INFO 3120 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:11:16.277  INFO 3120 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:11:16.370  INFO 3120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:11:16.402  INFO 3120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:11:16.417  INFO 3120 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.813 seconds (JVM running for 4.918)
-2020-12-09 10:11:16.527  INFO 3120 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:11:16.855  INFO 3120 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:11:25.886  INFO 3120 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:11:25.886  INFO 3120 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:11:25.902  INFO 3120 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 10:18:03.392  INFO 3332 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3332 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:18:03.392  INFO 3332 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:18:03.454  INFO 3332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:18:03.454  INFO 3332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:18:04.782  INFO 3332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:18:04.798  INFO 3332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:18:04.798  INFO 3332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:18:04.907  INFO 3332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:18:04.907  INFO 3332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1453 ms
-2020-12-09 10:18:05.064  WARN 3332 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:18:05.767  INFO 3332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:18:05.845  INFO 3332 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:18:05.954  INFO 3332 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:18:06.032  INFO 3332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:18:06.079  INFO 3332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:18:06.095  INFO 3332 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.207 seconds (JVM running for 6.503)
-2020-12-09 10:18:06.189  INFO 3332 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:18:06.517  INFO 3332 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:18:06.532  INFO 3332 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:18:06.532  INFO 3332 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:18:06.892  INFO 3332 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:22:46.296  INFO 3060 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3060 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:22:46.296  INFO 3060 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:22:46.358  INFO 3060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:22:46.358  INFO 3060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:22:47.874  INFO 3060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:22:47.874  INFO 3060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:22:47.874  INFO 3060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:22:47.983  INFO 3060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:22:47.983  INFO 3060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1625 ms
-2020-12-09 10:22:48.092  WARN 3060 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:22:48.796  INFO 3060 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:22:48.874  INFO 3060 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:22:48.999  INFO 3060 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:22:49.077  INFO 3060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:22:49.124  INFO 3060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:22:49.139  INFO 3060 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.684 seconds (JVM running for 6.426)
-2020-12-09 10:22:49.233  INFO 3060 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:22:49.858  INFO 3060 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:23:01.874  INFO 3060 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:23:01.874  INFO 3060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:23:01.890  INFO 3060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 10:23:53.421  INFO 3376 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3376 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:23:53.421  INFO 3376 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:23:53.484  INFO 3376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:23:53.484  INFO 3376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:23:54.672  INFO 3376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:23:54.672  INFO 3376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:23:54.672  INFO 3376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:23:54.765  INFO 3376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:23:54.765  INFO 3376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
-2020-12-09 10:23:54.875  WARN 3376 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:23:55.547  INFO 3376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:23:55.625  INFO 3376 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:23:55.734  INFO 3376 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:23:55.812  INFO 3376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:23:55.859  INFO 3376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:23:55.875  INFO 3376 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.813 seconds (JVM running for 5.817)
-2020-12-09 10:23:55.953  INFO 3376 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:23:56.281  INFO 3376 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:24:05.500  INFO 3376 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:24:05.515  INFO 3376 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:24:05.515  INFO 3376 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:26:12.142  INFO 3252 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3252 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:26:12.158  INFO 3252 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:26:12.205  INFO 3252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:26:12.220  INFO 3252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:26:13.439  INFO 3252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:26:13.455  INFO 3252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:26:13.455  INFO 3252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:26:13.548  INFO 3252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:26:13.548  INFO 3252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
-2020-12-09 10:26:13.658  WARN 3252 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:26:14.377  INFO 3252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:26:14.455  INFO 3252 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:26:14.564  INFO 3252 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:26:14.658  INFO 3252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:26:14.689  INFO 3252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:26:14.705  INFO 3252 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.942 seconds (JVM running for 6.001)
-2020-12-09 10:26:14.814  INFO 3252 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:26:15.142  INFO 3252 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:26:18.377  INFO 3252 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:26:18.377  INFO 3252 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:26:18.392  INFO 3252 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:26:46.580  INFO 3496 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3496 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:26:46.580  INFO 3496 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:26:46.643  INFO 3496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:26:46.643  INFO 3496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:26:47.830  INFO 3496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:26:47.846  INFO 3496 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:26:47.846  INFO 3496 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:26:47.924  INFO 3496 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:26:47.924  INFO 3496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
-2020-12-09 10:26:48.033  WARN 3496 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:26:48.627  INFO 3496 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:26:48.690  INFO 3496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:26:48.815  INFO 3496 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:26:48.877  INFO 3496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:26:48.908  INFO 3496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:26:48.924  INFO 3496 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.674 seconds (JVM running for 5.738)
-2020-12-09 10:26:49.033  INFO 3496 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:26:49.346  INFO 3496 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:26:54.737  INFO 3496 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:26:54.737  INFO 3496 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:26:54.737  INFO 3496 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:28:30.363  INFO 3632 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3632 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:28:30.363  INFO 3632 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:28:30.425  INFO 3632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:28:30.425  INFO 3632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:28:31.629  INFO 3632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:28:31.644  INFO 3632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:28:31.644  INFO 3632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:28:31.738  INFO 3632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:28:31.738  INFO 3632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
-2020-12-09 10:28:31.847  WARN 3632 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:28:32.582  INFO 3632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:28:32.644  INFO 3632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:28:32.769  INFO 3632 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:28:32.847  INFO 3632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:28:32.879  INFO 3632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:28:32.894  INFO 3632 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.855 seconds (JVM running for 5.815)
-2020-12-09 10:28:32.988  INFO 3632 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:28:33.332  INFO 3632 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:29:22.598  INFO 3632 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:29:22.598  INFO 3632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:29:22.598  INFO 3632 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2020-12-09 10:33:21.197  INFO 3160 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3160 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:33:21.197  INFO 3160 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:33:21.260  INFO 3160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:33:21.260  INFO 3160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:33:22.463  INFO 3160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:33:22.463  INFO 3160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:33:22.463  INFO 3160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:33:22.557  INFO 3160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:33:22.557  INFO 3160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
-2020-12-09 10:33:22.651  WARN 3160 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:33:23.229  INFO 3160 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:33:23.307  INFO 3160 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:33:23.416  INFO 3160 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:33:23.479  INFO 3160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:33:23.510  INFO 3160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:33:23.526  INFO 3160 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.652 seconds (JVM running for 5.825)
-2020-12-09 10:33:23.619  INFO 3160 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:33:23.947  INFO 3160 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:33:27.041  INFO 3160 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:33:27.041  INFO 3160 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:33:27.057  INFO 3160 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2020-12-09 10:37:34.045  INFO 3672 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3672 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:37:34.060  INFO 3672 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:37:34.107  INFO 3672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:37:34.123  INFO 3672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:37:35.529  INFO 3672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:37:35.545  INFO 3672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:37:35.545  INFO 3672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:37:35.654  INFO 3672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:37:35.654  INFO 3672 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1531 ms
-2020-12-09 10:37:35.795  WARN 3672 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:37:36.467  INFO 3672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:37:36.529  INFO 3672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:37:36.654  INFO 3672 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:37:36.748  INFO 3672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:37:36.795  INFO 3672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:37:36.795  INFO 3672 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.137 seconds (JVM running for 6.473)
-2020-12-09 10:37:36.888  INFO 3672 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:37:37.592  INFO 3672 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:37:47.967  INFO 3672 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:37:47.967  INFO 3672 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:37:47.982  INFO 3672 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
-2020-12-09 10:39:56.047  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3916 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
-2020-12-09 10:39:56.047  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
-2020-12-09 10:39:56.109  INFO 3916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-09 10:39:56.109  INFO 3916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-09 10:39:57.312  INFO 3916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2020-12-09 10:39:57.312  INFO 3916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-09 10:39:57.312  INFO 3916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-12-09 10:39:57.406  INFO 3916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-12-09 10:39:57.406  INFO 3916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
-2020-12-09 10:39:57.500  WARN 3916 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2020-12-09 10:39:58.187  INFO 3916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-09 10:39:58.250  INFO 3916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2020-12-09 10:39:58.375  INFO 3916 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-12-09 10:39:58.437  INFO 3916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-09 10:39:58.469  INFO 3916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2020-12-09 10:39:58.594  INFO 3916 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 2.87 seconds (JVM running for 4.974)
-2020-12-09 10:39:58.609  INFO 3916 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-09 10:39:58.922  INFO 3916 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-09 10:43:27.833  INFO 3916 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-09 10:43:27.849  INFO 3916 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-09 10:43:27.849  INFO 3916 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-08 01:45:37.551  WARN 4204 --- [http-nio-80-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-01-08 02:22:25.346  WARN 4204 --- [http-nio-80-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-01-08 02:44:42.867  INFO 4204 --- [http-nio-80-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [phtml,php3"; CTHK_2132_saltkey=jdhHcCdD; CTHK_2132_lastvisit=1610039842; CTHK_2132_sid=O3xesw; CTHK_2132_lastact=1610043442%09forum.php%09; acw_tc=2f6a1f8616100434779046800e4bc11afc7e1abf907b3d7e02f5e505e2cff1; JSESSIONID=0765CF6A5B9E7E2394452B603589C25E; InitSiteID=64817; SiteType=1; IsDefaultLang=1; WUserID=15371769350696; Lang=cn; yz_site=isSite; _d_id=c1320640a71abd3e5f09735f44f3cf; d2d977c58444271d9c780187e93f80e5=think%3A%7B%22verify_code%22%3A%22489974c074444c6d123ea85a576a724f%22%2C%22verify_time%22%3A%221610043845%22%7D; sitepath=%2F; liketrue=1; X_CACHE_KEY=60aebbe08644b78555d671d7e4d3a26c; XSRF-TOKEN=eyJpdiI6IjVoeVBiK25UTXc5M2FtYUZzS1BcLzJRPT0iLCJ2YWx1ZSI6IlRnMU40M08xbXhCWGVWdWxLVTVwRXVya1VicVhTNTAyMTI4M1wvZk5sRWZWdkZYeG9HMm9VZkVMemVwbWRYcEw1Z0dLTzN0NFwvcUhDeDRZeG0wNUZTdmc9PSIsIm1hYyI6ImFkMTllODJmNWI2NDFhN2VjNGIwOWExMWFhYWE3N2ZkNWZhYTE3NmJkNTA4ZTA1NWZlYTU3MjA4NWExZDZmZGMifQ%3D%3D; session_588v=eyJpdiI6ImpXajNKVlFGVnpiOVEzalNHOVZadlE9PSIsInZhbHVlIjoibk5Gb0xwWWtvazdMYWRtRTZpeU1WZWJpaEpjWlwvcWxHeTJ4SGtDbVJwSG1udEpPMEFIVnY0OWpcLzh2SG1xWVwvZnBwRGlacFYxNkJZdGdnVnpFRXRMY2c9PSIsIm1hYyI6IjEyMDcxYWZjNGRkZTg3YjYxMDNjYjgxNjkzN2EzZThhYjc5NTc4NGFhMzc5NjMyYzdlYjcxODk2NjY0M2YyZjcifQ%3D%3D; ASPSESSIONIDCCRTASDD=EBKCHNIDNDKEMGMDMEJFKNFC; route=4068944e4cff66723a4f7cbffbcb44b0; SESSIONID=421f9a37-4b36-41c0-aa22-7f5882530e08.uaiKVCGh8J8sFbDb5cRVY6pM06Q; IPLOC=CN3100; Dc0_city=9%7Chttps%3A%2F%2Fwww.mcfang.cn%2F] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-08 09:29:56.138  INFO 3684 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3684 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 09:29:56.154  INFO 3684 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 09:29:56.232  INFO 3684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 09:29:56.232  INFO 3684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 09:29:58.201  INFO 3684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 09:29:58.217  INFO 3684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 09:29:58.217  INFO 3684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 09:29:58.326  INFO 3684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 09:29:58.326  INFO 3684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2094 ms
+2021-01-08 09:29:58.560  WARN 3684 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 09:29:59.545  INFO 3684 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 09:29:59.639  INFO 3684 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 09:29:59.857  INFO 3684 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 09:29:59.967  INFO 3684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 09:29:59.998  INFO 3684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 09:30:00.014  INFO 3684 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 4.595 seconds (JVM running for 8.889)
+2021-01-08 09:30:00.139  INFO 3684 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 09:30:00.935  INFO 3684 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 09:30:03.125  INFO 3684 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 09:30:03.125  INFO 3684 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 09:30:03.141  INFO 3684 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-01-08 09:36:49.980  INFO 3684 --- [http-nio-80-exec-6] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Request header is too large
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:777) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:938) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:589) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2021-01-08 09:57:05.791  INFO 3684 --- [http-nio-80-exec-8] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Request header is too large
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:777) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:938) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:589) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2021-01-08 09:57:08.291  INFO 3684 --- [http-nio-80-exec-7] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [phtml,php3"; item_list_page8006985=0; laravel_session=eyJpdiI6Ikp4aWxtdkxhZEd5YTFCcFYyWHBHU3c9PSIsInZhbHVlIjoicWowdk55eSs4OVBvanhvWXZzNXRCbXpCc2RrQVwvUGs2Y3ZZNnQxS2N2OUZnSitLeitCTmxqY3FsVDBtWFljQWJ2STRJWVpValN3ZmZJS2d5bURZODV3PT0iLCJtYWMiOiI0ZDM3ZjA0MWFkMDAwNThjMjQzYmE0ZGQ1ZWE0NWMyZTg5MTdhZWM3ODFhZDM3ZWUxOWUyZGFjZjE3MmE2ZDgyIn0%3D; kuxin_history=33703%2C328; escart_goods_num=0; seed_VmallLastUrl=czo3MjoiaHR0cDovL20uY2FzaC5iZW5lZml0LmhuYWdyb3VwLmNvbS9wcm9kdWN0cy9ob3QtNDUwLTEzNjQxLTAtMC0wLTEtMS5odG1sIjs%3D; SESSION_COOKIE=B; lastfid=0; lastvisit=0%091610070720%09%2Fsimple%2Findex.php%3Ft244691.html%26; ol_offset=250842; XSRF-TOKEN=eyJpdiI6InN0eGYwdjQwZW1EVk9NT1JaRzAwUEE9PSIsInZhbHVlIjoiQnROcjQ2R1cwNEwvY0JjRW13d1JnYXNvcnZoSm5jcHJoRmNqRWtuWDVwa1ZOdU52bURWRGdVNFJaYTB1WFk4NkcyajhvYjFiY3E0N3dIV29MeDNCWnZJdWdDVCtSZ09mK0dhVVJDMlVnV0NZa3ZvTHBqSnI2VUJ2RklxTGVwSWMiLCJtYWMiOiI5Yjk4YTFhNjRjY2M1MWJmYzc2OTRmNDFmYTA2MjUzOWE4MGQxMWE4YTgxY2UwOTRmMWU3NTJlNjU4NDU3ZTIwIn0%3D; _session=eyJpdiI6InlrdTcyRElrWjJpTjU3d0ZvSUZuTXc9PSIsInZhbHVlIjoiU21pcmo5L2NDU3FGeUNBSGx1NDRCUGpycVJmaDZXeUwydjNZRWRkSU45TFJtZStIUVpraHdja1ZNSmNSUUN1L3ZzV09rdHpnYWlBazV5RyszaEY0ZzdmZHd2QWlLTGIzcTdza0x2cHd4NUdpbG5oT1JXT25hN1J0R1Zqa1FMK2giLCJtYWMiOiI3NmE0ZDNiMjcyNzM1YTQ3N2U3OGE3Y2YzNWM3ODQ1OTMwZWM5MzUwZGY1OGRkOWIxOTA1OWM1ODkwZjc1OGM2In0%3D; rh8h_2132_saltkey=o4108p48; rh8h_2132_lastvisit=1610067368; rh8h_2132_lastact=1610070968%09home.php%09space; rh8h_2132_home_diymode=1; acw_tc=7819730516100710134206252e0aeb5f5d2649b2120d8def8db4676940fef5] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-08 10:38:56.269  INFO 3608 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3608 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 10:38:56.269  INFO 3608 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 10:38:56.394  INFO 3608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 10:38:56.394  INFO 3608 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 10:38:58.659  INFO 3608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 10:38:58.675  INFO 3608 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 10:38:58.675  INFO 3608 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 10:38:58.800  INFO 3608 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 10:38:58.800  INFO 3608 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2406 ms
+2021-01-08 10:38:59.066  WARN 3608 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 10:39:00.097  INFO 3608 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 10:39:00.191  INFO 3608 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 10:39:00.378  INFO 3608 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 10:39:00.659  INFO 3608 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 10:39:00.753  INFO 3608 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 10:39:00.769  INFO 3608 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 5.113 seconds (JVM running for 8.85)
+2021-01-08 10:39:00.894  INFO 3608 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 10:39:01.441  INFO 3608 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 10:39:03.987  INFO 3608 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 10:39:03.987  INFO 3608 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 10:39:04.003  INFO 3608 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2021-01-08 10:45:03.673  INFO 1288 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 1288 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 10:45:03.673  INFO 1288 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 10:45:03.735  INFO 1288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 10:45:03.735  INFO 1288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 10:45:05.220  INFO 1288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 10:45:05.266  INFO 1288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 10:45:05.266  INFO 1288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 10:45:05.391  INFO 1288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 10:45:05.391  INFO 1288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1656 ms
+2021-01-08 10:45:05.751  WARN 1288 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 10:45:06.720  INFO 1288 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 10:45:06.813  INFO 1288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 10:45:07.001  INFO 1288 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 10:45:07.095  INFO 1288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 10:45:07.141  INFO 1288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 10:45:07.157  INFO 1288 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 4.47 seconds (JVM running for 7.192)
+2021-01-08 10:45:07.282  INFO 1288 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 10:45:08.126  INFO 1288 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 10:46:22.266  INFO 3852 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3852 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 10:46:22.266  INFO 3852 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 10:46:22.360  INFO 3852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 10:46:22.360  INFO 3852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 10:46:23.782  INFO 3852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 10:46:23.797  INFO 3852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 10:46:23.797  INFO 3852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 10:46:23.922  INFO 3852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 10:46:23.922  INFO 3852 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2021-01-08 10:46:24.047  WARN 3852 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 10:46:24.688  INFO 3852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 10:46:24.766  INFO 3852 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 10:46:24.891  INFO 3852 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 10:46:24.985  INFO 3852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 10:46:25.016  INFO 3852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 10:46:25.032  INFO 3852 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.125 seconds (JVM running for 6.7)
+2021-01-08 10:46:25.172  INFO 3852 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 10:46:25.500  INFO 3852 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 10:46:30.282  INFO 3852 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 10:46:30.282  INFO 3852 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 10:46:30.297  INFO 3852 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-01-08 10:51:10.470  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3124 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 10:51:10.485  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 10:51:10.548  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 10:51:10.548  INFO 3124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 10:51:12.157  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 10:51:12.173  INFO 3124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 10:51:12.173  INFO 3124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 10:51:12.266  INFO 3124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 10:51:12.266  INFO 3124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1718 ms
+2021-01-08 10:51:12.438  WARN 3124 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 10:51:13.188  INFO 3124 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 10:51:13.266  INFO 3124 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 10:51:13.407  INFO 3124 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 10:51:13.501  INFO 3124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 10:51:13.548  INFO 3124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 10:51:13.548  INFO 3124 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 3.512 seconds (JVM running for 7.198)
+2021-01-08 10:51:13.657  INFO 3124 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 10:51:13.938  INFO 3124 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 10:51:13.954  INFO 3124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 10:51:13.954  INFO 3124 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-08 10:51:14.266  INFO 3124 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 10:52:25.409  WARN 3124 --- [http-nio-80-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.custchina.shequdemo.excaption.CustomizeException: 您还未登录 ，请重新登陆]
+2021-01-08 10:56:13.337  INFO 3124 --- [http-nio-80-exec-5] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Request header is too large
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:777) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:938) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:589) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2021-01-08 11:06:57.280  INFO 3124 --- [http-nio-80-exec-10] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Request header is too large
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:777) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:938) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:589) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
+2021-01-08 11:20:08.890  INFO 5040 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 5040 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 11:20:08.905  INFO 5040 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 11:20:09.046  INFO 5040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 11:20:09.046  INFO 5040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 11:20:11.015  INFO 5040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 11:20:11.030  INFO 5040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 11:20:11.030  INFO 5040 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 11:20:11.218  INFO 5040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 11:20:11.218  INFO 5040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2172 ms
+2021-01-08 11:20:11.515  WARN 5040 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 11:20:12.407  WARN 5040 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'uCloudProvider'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+2021-01-08 11:20:12.407  INFO 5040 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-01-08 11:20:12.422  INFO 5040 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-08 11:20:12.454 ERROR 5040 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'uCloudProvider'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.custchina.shequdemo.ShequdemoApplication.main(ShequdemoApplication.java:14) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 25 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 36 common frames omitted
+
+2021-01-08 11:22:25.270  INFO 3348 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3348 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 11:22:25.270  INFO 3348 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 11:22:25.395  INFO 3348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 11:22:25.395  INFO 3348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 11:22:27.426  INFO 3348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 11:22:27.442  INFO 3348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 11:22:27.442  INFO 3348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 11:22:27.551  INFO 3348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 11:22:27.567  INFO 3348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2156 ms
+2021-01-08 11:22:27.832  WARN 3348 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 11:22:28.848  WARN 3348 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'uCloudProvider'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+2021-01-08 11:22:28.848  INFO 3348 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-01-08 11:22:28.863  INFO 3348 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-08 11:22:28.895 ERROR 3348 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'uCloudProvider'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+	at com.custchina.shequdemo.ShequdemoApplication.main(ShequdemoApplication.java:14) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_65]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.3.4.RELEASE.jar:2.3.4.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'UCloudProvider': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 25 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'ucloud.ufile.public-key' in value "${ucloud.ufile.public-key}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.2.9.RELEASE.jar:5.2.9.RELEASE]
+	... 36 common frames omitted
+
+2021-01-08 11:24:32.851  INFO 3084 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Starting ShequdemoApplication on 10_0_8_2 with PID 3084 (C:\shequdemo\shequdemo\target\classes started by Administrator in C:\shequdemo\shequdemo)
+2021-01-08 11:24:32.851  INFO 3084 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : No active profile set, falling back to default profiles: default
+2021-01-08 11:24:32.914  INFO 3084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-08 11:24:32.914  INFO 3084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-08 11:24:34.351  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-08 11:24:34.351  INFO 3084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-08 11:24:34.351  INFO 3084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-01-08 11:24:34.695  INFO 3084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-08 11:24:34.695  INFO 3084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2021-01-08 11:24:35.007  WARN 3084 --- [restartedMain] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-01-08 11:24:36.023  INFO 3084 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 11:24:36.132  INFO 3084 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-08 11:24:36.461  INFO 3084 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-01-08 11:24:36.586  INFO 3084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-08 11:24:36.695  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-08 11:24:36.726  INFO 3084 --- [restartedMain] c.c.shequdemo.ShequdemoApplication       : Started ShequdemoApplication in 4.205 seconds (JVM running for 6.749)
+2021-01-08 11:24:36.773  INFO 3084 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 11:24:37.664  INFO 3084 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 11:24:47.523  INFO 3084 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 11:24:47.539  INFO 3084 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 11:24:47.539  INFO 3084 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-08 11:41:38.319  INFO 3084 --- [http-nio-80-exec-7] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Request header is too large
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:777) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeader(Http11InputBuffer.java:938) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11InputBuffer.parseHeaders(Http11InputBuffer.java:589) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:284) ~[tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.38.jar:9.0.38]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_65]
+
