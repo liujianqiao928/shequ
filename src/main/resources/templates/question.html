@@ -43,7 +43,13 @@
                 <h2>
                     <span th:text="${question.title}"></span>
                 </h2>
+<<<<<<< HEAD
                 <span class="text-desc">作者：<span th:text="${question.namess}"></span> |    发布时间：<span th:text="${#dates.format(question.gmtCreate,'yyyy-MM-dd HH:mm')}"></span> |
+=======
+                <span class="text-desc">
+                作者：<span th:text="${question.namess}"></span> |
+                发布时间：<span th:text="${#dates.format(question.gmtCreate,'yyyy-MM-dd HH:mm')}"></span> |
+>>>>>>> cace22474289717c0c9c37eea0c50bd5ce4658eb
                 阅读数： <span th:text="${question.viewCount}"></span>
                 </span>
                 <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

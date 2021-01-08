@@ -18,7 +18,11 @@ public enum CustomizeErrorCode implements ICustomizeErrorCode {
     INVALID_INPUT(2011, "非法输入"),
     INVALID_OPERATION(2012, "兄弟，是不是走错房间了？"),
     REDIECT_OFF(2013,"账号已存在，请重新注册" ),
+<<<<<<< HEAD
     LOGIN_ONE(2015,"您还未登录 ，请重新登陆" ),
+=======
+    LOGIN_ONE(2015,"账号不存在，请重新注册" ),
+>>>>>>> cace22474289717c0c9c37eea0c50bd5ce4658eb
     LOGIN_TWO(2016,"密码错误，请重新登陆" ),
     GN_OFF(2021,"此功能尚未开放,敬请期待" ),
     LOGIN_OFF(2014,"账号密码错误，请重新登陆" );

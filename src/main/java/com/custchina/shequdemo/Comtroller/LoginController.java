@@ -92,7 +92,11 @@ public class LoginController {
 
 
         //    String path ="F:\\image
+<<<<<<< HEAD
         String path ="C:\\shequdemo\\shequdemo\\src\\main\\resources\\static\\images";
+=======
+        String path ="D:\\xm\\shequdemo\\shequdemo\\src\\main\\resources\\static\\images";
+>>>>>>> cace22474289717c0c9c37eea0c50bd5ce4658eb
         File f = new File(path);
         String originalFilename = multipartFile.getOriginalFilename();
         String a = FileTool.filePath(f, originalFilename);
